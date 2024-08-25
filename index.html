@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="\assetss\fevicon.png">
+</head>
+<body>
+   <div class="wrapper">
+    <div class="circle1"></div>
+    <div class="circle2"></div>
+    <div class="container">
+        <div>
+            <img src="./assetss/profile-image.jpeg" alt="">
+        </div>
+        <div class="name-heading">
+            <h2>Himanshu Garg</h2>
+        </div>
+
+        <div class="desciption">
+           <h3>Software Developer</h3>
+        </div>
+
+        <div class="btn-grp">
+            <button onclick="openModel()" class="btn-share btns" >
+                <!-- <i class="fa-solid fa-share"></i> -->
+                Follow Me
+                </button>
+            <button class="btn-follow btns">
+              <a id="atag"  href = "indexx.html" target="_blank">
+                <i class="fa-solid fa-share"></i>
+                visit My profile</a>
+              <!-- Follow Me -->
+            </button>
+        </div>
+
+    </div>
+     
+   </div>
+    
+<!-- ---------------Model----------------------- -->
+
+<div class="model-container">
+        <div class="model-header">
+            <h1>Share My Profile</h1>
+            <div>
+                <i onclick="closeModal()" class="fa-solid fa-xmark close"></i>
+              </div>
+        </div>
+
+
+
+        <div class="model-share">
+            <h3>Share this via</h3>
+            
+  <div class="icon-container">
+    <a href="#" class="icon" id="facebook">
+        <i class="fa-brands fa-facebook-f"></i>
+      </a>
+      <a href="https://github.com/himanshugarg583" class="icon" id="twitter">
+        <i class="fa-brands fa-twitter"></i>
+      </a>
+      <a href="https://www.instagram.com/himanshugarg3103/" class="icon" id="instagram">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+      <a href="tel:+7073873731" class="icon" id="whatsapp">
+        <i class="fa-brands fa-whatsapp"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/himanshu-garg-a25291212/" class="icon" id="telegram">
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+  </div>
+
+        </div>
+</div>
+
+
+<div class="overlay" onclick="closeModal()"></div>
+
+   <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+   <script src="script.js"></script>
+</body>
+</html>
