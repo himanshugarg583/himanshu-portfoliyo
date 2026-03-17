@@ -167,6 +167,7 @@
     scale: 0;
     background: #00000088;
     backdrop-filter: blur(10px);
+    /* background-color: #000; */
     color: white;
     z-index: 1;
     padding: 20px 25px;
